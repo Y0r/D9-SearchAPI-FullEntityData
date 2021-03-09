@@ -1,0 +1,5 @@
+services:
+  elasticsearch.full_entity_data.event_subscriber:
+    class: Drupal\full_entity_data\EventSubscriber\ElasticsearchFullEntityData
+    tags:
+      - { name: event_subscriber }

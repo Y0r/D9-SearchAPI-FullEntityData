@@ -1,0 +1,9 @@
+name: 'Full Entity Data'
+description: 'Provide custom data type for Search API and Elasticsearch connector modules.'
+type: module
+package: Custom
+dependencies:
+  - search_api
+  - elasticsearch_connector
+  - drupal:serialization
+core_version_requirement: ^8.8 || ^9
